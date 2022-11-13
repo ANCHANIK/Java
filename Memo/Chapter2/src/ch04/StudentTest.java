@@ -4,6 +4,7 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 		
+		// 각각의 인스턴스를 사용할 수 있는 이유 => 각각 다른 메모리를 사용하고 있기 때문
 		Student studentLee = new Student();
 		studentLee.studentName = "이순신";
 		studentLee.address = "서울";
